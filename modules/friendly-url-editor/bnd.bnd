@@ -1,0 +1,5 @@
+Bundle-Name: kb-service-override
+Bundle-SymbolicName: com.eversis.knowledge.base.service.override
+Bundle-Version: 1.0.0
+Liferay-JS-Config: /META-INF/resources/js/config.js
+Web-ContextPath: /liferay-portlet-journal-test
