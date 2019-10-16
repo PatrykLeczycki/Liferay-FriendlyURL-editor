@@ -16,13 +16,11 @@
 		<dependency>
 			<groupId>com.liferay.portal</groupId>
 			<artifactId>com.liferay.portal.kernel</artifactId>
-			<version>4.4.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.osgi</groupId>
 			<artifactId>org.osgi.service.component.annotations</artifactId>
-			<version>1.3.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -36,23 +34,25 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.liferay.portal</groupId>
-			<artifactId>com.liferay.portal.impl</artifactId>
-			<version>4.12.6</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.devskiller.friendly-id</groupId>
-			<artifactId>friendly-id-jackson-datatype</artifactId>
-			<version>1.1.0</version>
-		</dependency>
-		<dependency>
 			<groupId>com.liferay</groupId>
 			<artifactId>com.liferay.friendly.url.api</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.liferay</groupId>
 			<artifactId>com.liferay.site.api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.9</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.26</version>
 		</dependency>
 	</dependencies>
 	<build>
